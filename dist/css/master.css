@@ -1,0 +1,96 @@
+/****************************************************************首页begin*********************************************************************************************************************************************************************************************/
+.btn-block {
+  height: 9.5rem;
+  margin: 10px 0 5px;
+  background: #FFFFFF;
+}
+.btn-block div {
+  width: 25%;
+  height: 3.5rem;
+  float: left;
+  margin-top: 0.75rem;
+}
+.btn-block img {
+  width: 2.45rem;
+  height: 2.45rem;
+  margin: 0 22%;
+}
+.btn-block p {
+  font-size: 14px;
+  text-align: center;
+  margin: 0.2rem 0 0 0;
+  padding: 0;
+}
+.product-block {
+  width: 100%;
+}
+.product-block .guess {
+  height: 30px;
+}
+.product-block .guess span {
+  margin-top: 15px;
+  float: left;
+  background: #dbdfe7;
+  height: 1px;
+  width: 33%;
+}
+.product-block .guess span:last-child {
+  float: right;
+}
+.product-block .guess img {
+  width: 14%;
+  margin-right: 3%;
+  float: left;
+  margin-top: 16px;
+  margin-left: 5%;
+}
+.product-block .guess .love-img {
+  width: 15px;
+  height: 15px;
+  margin-top: 7px;
+}
+.product-block .guess p {
+  letter-spacing: 2px;
+  float: left;
+  padding: 0;
+  font-size: 14px;
+  line-height: 30px;
+  color: #666666;
+  margin: 0;
+}
+.product-block .card {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+.product-block .card-content {
+  margin-left: 2%;
+  margin-right: 4%;
+  margin-top: 5px;
+  padding-top: 10px;
+  display: inline;
+  background-color: #FFFFFF;
+  height: 10.5rem;
+  width: 44%;
+  float: left;
+}
+.product-block .card-content:nth-of-type(odd) {
+  margin-left: 4%;
+  margin-right: 2%;
+}
+.product-block .card-content .item-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 10px;
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+.product-block .card-content .item-subtitle {
+  margin-left: 10px;
+  color: #ff4f00;
+  font-size: 14px;
+}
+.product-block .card-content img {
+  width: 100%;
+}
