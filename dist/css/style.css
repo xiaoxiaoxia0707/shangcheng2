@@ -1,0 +1,68 @@
+/****************************************************************商品详情begin**************************************************************************************************************/
+.product-card .item-inner {
+  padding: 0.5rem 0.75rem;
+}
+.product-card .list-block .item-title {
+  white-space: pre-wrap;
+}
+.product-card .item-title-row {
+  margin-top: 0.25rem;
+}
+.product-card .price-item-subtitle {
+  color: #fc4749;
+}
+.please-card .list-block .item-media + .item-inner {
+  font-size: 16px;
+  margin-left: 0;
+}
+.buttons-tab {
+  margin-top: 0.75rem;
+}
+.div-prompt {
+  height: 30px;
+  width: 100%;
+}
+.div-prompt span {
+  margin-left: 0.75rem;
+  margin-top: 15px;
+  float: left;
+  background: #dbdfe7;
+  height: 1px;
+  width: 16%;
+}
+.div-prompt p {
+  margin: 0 10px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 0;
+  font-size: 12px;
+  line-height: 30px;
+  color: #666666;
+}
+.div-prompt span:last-child {
+  margin-left: 0;
+  margin-right: 0.75rem;
+  float: right;
+}
+.tabs {
+  width: 100%;
+  background-color: #fff;
+}
+.tabs h1 {
+  letter-spacing: 2px;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+#tool-bar a {
+  color: #fff;
+}
+#tool-bar a:first-child {
+  background-color: #fa8300;
+}
+#tool-bar a:last-child {
+  background-color: #fc4749;
+}
+/****************************************************************商品详情end**************************************************************************************************************/
