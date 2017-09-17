@@ -70,12 +70,35 @@
   line-height: 1em;
   font-size: 14px;
 }
-#header h1 {
-  line-height: 2.25rem;
-}
 .title {
+  line-height: 2.25rem;
   font-size: 16px;
+}
+.bar-nav a:first-child {
+  margin-left: 0.4rem;
+}
+.bar .button-nav.pull-right {
+  margin-right: 0;
 }
 .bar {
   background-color: #fff;
+}
+.modal {
+  width: 10rem;
+  margin-left: -5rem;
+}
+.modal-inner,
+.modal-button {
+  font-size: 14px;
+}
+.modal-button,
+.modal-buttons {
+  height: 1.75rem;
+  line-height: 1.75rem;
+}
+.modal-button:first-child {
+  border-right: 1px solid #b5b5b5;
+}
+.modal-button:after {
+  width: 0px;
 }

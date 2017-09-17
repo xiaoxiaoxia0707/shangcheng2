@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>购物车</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.css">
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_3mgu42g42easjor.css">
+    <style>
+        
+        .list-block .item-content{
+            padding: 0 0.65rem;
+        }
+         .bar-tab:before {
+  background-color: #d0d5de;
+}
+
+    </style>
+</head>
+
+<body>
+<div class="page-group">
+    <div class="page">
+        <!--头部部分 !-->
+        <header class="bar bar-nav">
+            <a class="icon icon-left pull-left" onclick="javascript:history.go(-1);"></a>
+            <button class="button button-link button-nav pull-right" id="editBtn">编辑</button>
+            <h1 class="title">购物车</h1>
+        </header>
+        <div class="content cart-content">
+            <div class="list-block media-list">
+            <div class="b-name"> <label  class="label-checkbox item-content"> 
+            <input type="checkbox" class="s-all" name="checkbox" /> 
+            <div class="item-media"><i class="icon icon-form-checkbox"></i></div> <i class="iconfont icon-shangdian"></i> <span>佰信恒通店</span> <span class="icon icon-right" style="font-size: 12px;"></span>  </label> </div> <ul><li><i class="pid" style="display: none;">
+            </i> <label class="label-checkbox item-content"> <input type="checkbox" name="checkbox"> <div class="item-media"><i class="icon icon-form-checkbox"></i></div> <img src=http://img.alicdn.com/bao/uploaded/i3/1761481772/TB27zGmeO0TMKJjSZFNXXa_1FXa_!!1761481772.jpg_b.jpg> <div class="item-inner"> <div class="item-text">RIO锐澳微醺炫彩鸡尾RIO锐澳微醺炫彩鸡尾</div> <div class="item-subtitle">规格：2</div> <div class="item-title-row"> 
+            <div class="item-title">￥<span class="s-price">80</span></div><div class="number">x3</div> <div class="item-after amount"> <a  href="javascript:void(0);" class="minus no-minus reduce" data="-">-</a> <input type="number" value="'+ o.cartNum + '" id="itemAmount" class="text-amount s-num""> <a href="javascript:void(0);" class="plus" data="+">+</a> </div> </div> </div> </label> </li></ul></div>
+        </div>
+        <nav class="bar bar-tab account-bar-tab" id="tool-bar">
+            <h4>合计：<span>￥<span><span class="total-price">55.80</span></h4>
+            <span data-url="" class="accountBtn g-pay">去结算</span>
+        </nav>
+    </div>
+    <input type="hidden" id="refreshed" value="no">
+</div>
+<script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
+<script>
+    $.config = {router: false}
+</script>
+<script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
+<script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+<script type="text/javascript" src="js/cartList.js"></script>
+<script>$.init()</script>
+<script type='text/javascript'>
+    onload = function () {
+        var e = document.getElementById("refreshed");
+        if (e.value == "no")
+            e.value = "yes";
+        else {
+            e.value = "no";
+            location.reload();
+        }
+    }
+</script>
+</body>
+
+</html>
