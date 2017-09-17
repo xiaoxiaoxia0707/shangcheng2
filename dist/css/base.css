@@ -70,18 +70,12 @@
   line-height: 1em;
   font-size: 14px;
 }
-.bar-tab:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: auto;
-  right: auto;
-  height: 1px;
-  width: 100%;
-  background-color: #d0d5de;
-  display: block;
-  z-index: 15;
-  -webkit-transform-origin: 50% 0%;
-  transform-origin: 50% 0%;
+#header h1 {
+  line-height: 2.25rem;
+}
+.title {
+  font-size: 16px;
+}
+.bar {
+  background-color: #fff;
 }
