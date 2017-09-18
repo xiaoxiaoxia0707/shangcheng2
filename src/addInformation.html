@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/sm-extend.css">
     <link rel="stylesheet" type="text/css" href="css/print.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
-    <title>新增地址</title>
+    <title>填写信息</title>
 </head>
 <body>
 <div class="page-group">
@@ -17,10 +17,7 @@
         <!--头部内容 !-->
         <header class="bar bar-nav">
             <a class="icon icon-left pull-left" href="javascript:back();"></a>
-            <h1 class="title">新增地址</h1>
-             <!--确定按钮-->
-            <a href="javascript:;" class="pull-right saveBtn">确定</a>
-            <input type="hidden" id="refreshed" value="no">
+            <h1 class="title">填写信息</h1>
         </header>
         <div class="content addAddress">
             <div class="list-block">
@@ -30,9 +27,9 @@
                         <div class="item-content">
                             <div class="item-media"><i class="icon icon-form-name"></i></div>
                             <div class="item-inner">
-                                <div class="item-title label">收货人</div>
+                                <div class="item-title label">联系人</div>
                                 <div class="item-input">
-                                    <input type="text" class="r-name" placeholder="请输入收货人姓名">
+                                    <input type="text" class="r-name" placeholder="请填写联系人">
                                 </div>
                             </div>
                         </div>
@@ -43,37 +40,38 @@
                             <div class="item-inner">
                                 <div class="item-title label">联系电话</div>
                                 <div class="item-input">
-                                    <input type="tel" class="r-tel" placeholder="请输入手机号码">
+                                    <input type="tel" class="r-tel" placeholder="请填写联系电话">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">QQ号</div>
+                                <div class="item-input">
+                                    <input type="tel" class="r-tel" placeholder="请填写联系QQ号">
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li>
-                    <a href="#" class="item-link item-content">
-                            <div class="item-media"><i class="icon icon-form-password"></i></div>
-                            <div class="item-inner">
-                                <div class="item-title label">所在地区</div>
-                                <div class="item-input">
-                                    <input type="text" class="r-area" readonly="readonly" id="city-picker" placeholder="请选择地区" class="">
-                                </div>
-                            </div>
-                       
-                        </a>
-                    </li>
-                    <li class="mt0">
                         <div class="item-content">
-                            <div class="item-media"><i class="icon icon-form-password"></i></div>
+                            <div class="item-media"><i class="icon icon-form-email"></i></div>
                             <div class="item-inner">
-                                <div class="item-title label">详细地址</div>
+                                <div class="item-title label">微信号</div>
                                 <div class="item-input">
-                                    <input type="text" class="r-area-detail" placeholder="请填写详细地址，门牌号" class="">
+                                    <input type="tel" class="r-tel" placeholder="请填写微信号">
                                 </div>
                             </div>
                         </div>
                     </li>
                 </ul>
             </div>
-           
+           <div class="saveInfBtn url" data-url="">
+                <a class="button ">保存</a>
+            </div>
         </div>
     </div>
 
@@ -82,25 +80,6 @@
     <script type="text/javascript">$.config={router:false}</script>
     <script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
     <script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
-    <script type="text/javascript" src="http://g.alicdn.com/msui/sm/0.6.2/js/sm-city-picker.min.js" charset="utf-8"></script>
-    <script>
-        $("#city-picker").cityPicker({
-            toolbarTemplate: '<header class="bar bar-nav">\
-	    <button class="button button-link pull-right close-picker">确定</button>\
-	    <h1 class="title">选择收货地址</h1>\
-	    </header>'
-        });
-        onload=function(){
-            var e=document.getElementById("refreshed");
-            if(e.value=="no")
-                e.value="yes";
-            else{e.value="no";location.reload();}
-        }
-        function back(){
-            window.history.go(-1);
-            return false;
-        }
-    </script>
     <script type="text/javascript">$.init();</script>
 </div>
 </body>

@@ -68,3 +68,16 @@
   padding-right: 0.75rem;
   font-size: 14px;
 }
+.saveInfBtn {
+  width: 90%;
+  margin: 24px auto 0;
+}
+.saveInfBtn .button {
+  border-radius: 4px;
+  background: #86bb07;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  border: 1px solid #86bb07;
+  color: #fff;
+}
