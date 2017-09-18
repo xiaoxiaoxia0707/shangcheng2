@@ -1,0 +1,21 @@
+.news-media-list {
+  margin: 0;
+}
+.news-media-list .item-content .item-media {
+  width: 34%;
+  padding: 0 0.25rem 0 0;
+}
+.news-media-list .item-content p {
+  margin: 0;
+}
+.news-media-list .item-content .item-media img {
+  width: 100%;
+  height: 4rem;
+}
+.news-media-list .item-title {
+  font-size: 0.75rem;
+}
+.news-media-list .item-subtitle {
+  font-size: 0.6rem;
+  color: #848689;
+}

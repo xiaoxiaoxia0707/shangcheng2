@@ -83,6 +83,9 @@
 .bar {
   background-color: #f6f6f6;
 }
+.bar .icon {
+  font-size: 0.9rem;
+}
 .modal {
   width: 10rem;
   margin-left: -5rem;
