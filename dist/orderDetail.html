@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>订单详情</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.css">
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.css">
+    <link rel="stylesheet" type="text/css" href="css/module.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_fzkvbtj540w6zuxr.css" />
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_418523_g7nk4glnyfa8aor.css" />
+    <style>
+        .order-status{position: relative;background: #00b0ec; width: 100%;padding: 20px 15px;}
+        .order-status p{font-size: 14px;width: 100%;margin: 0;color: #fff;}
+        .hide{  display: none;}
+        .order-status>span{ position: absolute;color: #ffffff; font-size: 35px;top:50%;margin-top: -23px;right: 15px;}
+        .modal-text{font-size:14px!important;}
+    </style>
+</head>
+<body>
+<div class="page-group">
+    <div class="page" data-url="">
+        <!--头部内容 !-->
+        <header class="bar bar-nav">
+            <a class="icon icon-left pull-left" href="javascript:back();"></a>
+            <h1 class="title">订单详情</h1>
+        </header>
+        <div class="main">
+            <div class="address row" data-url="" data-address="">
+                <div class="list-block media-list inset">
+    <ul>
+      <li>
+        <a href="#" class="item-link item-content">
+          <div class="item-media"><span class="iconfont icon-dingwei" style="float: left"></span></div>
+          <div class="item-inner">
+            <div class="item-title-row">
+              <div class="item-title">暂无配送地址</div>
+            </div>
+            <div class="item-subtitle">还没有配送地址，赶紧去添加吧</div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+            </div>
+            <img src="images/line.png" class="img-div">
+            <div class="o-list-content">
+                <div class="o-list-item"><div class="o-s-head"><i class="iconfont icon-shangdian"></i> <span>佰信恒通商城</span> <span class="icon icon-right"></span> </div><ul class="o-list"> <li class="row"><div class="col-20"> <img src="https://gd3.alicdn.com/imgextra/i2/0/TB1pKptXsrHK1Jjy1zjXXanYVXa_!!0-item_pic.jpg_400x400.jpg_.webp" /></div><div class="col-80" ><div class="p-list">部分现货【王小毒】 琴心  圆头浅口绑带粗跟单鞋子女8.31</div><div class="pspec"><div class="s-price">25.00</div> <div class="s-count">3</div> </div></div>  </li><li class="row"><div class="col-20"> <img src="https://gd3.alicdn.com/imgextra/i2/0/TB1pKptXsrHK1Jjy1zjXXanYVXa_!!0-item_pic.jpg_400x400.jpg_.webp" /></div><div class="col-80" ><div class="p-list">部分现货【王小毒】 琴心  圆头浅口绑带粗跟单鞋子女8.31</div><div class="pspec"><div class="s-price">25.00</div> <div class="s-count">3</div> </div></div>  </li> </ul> </div>
+            </div>
+            <div class="o-list-total"><div>共3件商品<span style="float: right;">小计：<span class="o-total-Price">255.02</span></span></div></div>
+            
+        </div>
+         <nav class="bar bar-tab account-bar-tab" id="tool-bar">
+            <h4>合计：<span>￥<span><span class="total-price">55.80</span></h4>
+            <span data-url="" class="accountBtn g-pay">去结算</span>
+        </nav>
+    </div>
+</div>
+<script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
+<script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
+<script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+<script>
+    onload=function(){
+        var e=document.getElementById("refreshed");
+        if(e.value=="no")
+            e.value="yes";
+        else{e.value="no";location.reload();}
+    }
+    function back(){
+        window.history.go(-1);
+        return false;
+    }
+</script>
+</body>
+</html>
