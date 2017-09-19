@@ -1,0 +1,150 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>个人中心</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.css">
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.css">
+    <link rel="stylesheet" type="text/css" href="css/module.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_961uouwh7c9b2o6r.css">
+    <style>
+    .card{margin:0;}
+    </style>
+</head>
+
+<body>
+<div class="page">
+    <!--头部部分 !-->
+    <div class="content person-content" id="person-content">
+        <div class="card header-card">
+            <img src="images/bg.png" class="img-bg">
+            <img src="images/weChat.png" width="26" class="weChat-img">
+            <img src="images/weChat.png" width="80" class="head-img">
+            <h4>用户昵称</h4>
+        </div>
+   <!--订单 !-->
+        <div class="info-list" id="orderBlock">
+            <div class="nlist-block">
+                <a href="">
+                    <div class="img-wrap">
+                        <img src="images/payment.png" alt="待付款" width="32" height="28"/>
+                    </div>
+                    <p>待付款</p>
+                </a>
+                <a href="">
+                    <div class="img-wrap">
+                        <img src="images/send.png" alt="待发货" width="32"/>
+                    </div>
+                    <p>待发货</p>
+                </a>
+                <a href="">
+                    <div class="img-wrap">
+                        <img src="images/receipt.png" alt="待收货" width="28"/>
+                    </div>
+                    <p>待收货</p>
+                </a>
+                <a href="">
+                    <div class="img-wrap">
+                        <img src="images/complete.png" alt="已完成" width="28"/>
+                    </div>
+                    <p>已完成</p>
+                </a>
+            </div>
+        </div>
+        <div class="info-div">
+            <a class="list-item" style="margin-bottom: 16px;">
+                <span class="list-icon">
+                    <img src="images/allOrder.png">
+                </span>
+                <span>
+                    全部订单
+                </span>
+                <div class="list-right"></div>
+            </a>
+             <a class="list-item">
+                <span class="list-icon">
+                    <img src="images/address.png">
+                </span>
+                <span>
+                    地址管理
+                </span>
+                <div class="list-right"></div>
+            </a>
+             <a class="list-item">
+                <span class="list-icon">
+                    <img src="images/phone.png">
+                </span>
+                <span>
+                    通讯录
+                </span>
+                <div class="list-right"></div>
+            </a>
+             <a class="list-item">
+                <span class="list-icon">
+                    <img src="images/service.png">
+                </span>
+                <span>
+                    联系客服
+                </span>
+                <div class="list-right"></div>
+            </a>
+             <a class="list-item">
+                <span class="list-icon">
+                    <img src="images/our.png">
+                </span>
+                <span>
+                    关于我们
+                </span>
+                <div class="list-right"></div>
+            </a>
+             <a class="list-item" style="border-bottom: 0;">
+                <span class="list-icon">
+                    <img src="images/cash.png">
+                </span>
+                <span>
+                    提现
+                </span>
+                <div class="list-right"></div>
+            </a>
+        </div>
+        </div>
+       <!-- 工具栏 -->
+            <nav class="footer-bar bar bar-tab">
+                <a class="tab-item external active" href="#">
+                   <img src="images/we.png">
+                    <p class="tab-label">商城</p>
+                </a>
+                <a class="tab-item external" href="#">
+                    <img src="images/we.png">
+                    <p class="tab-label">资讯</p>
+                </a>
+                <a class="tab-item external" href="#">
+                    <img src="images/we.png">
+                    <p class="tab-label">发现</p>
+                </a>
+                <a class="tab-item external" href="#">
+                    <img src="images/we.png">
+                    <p class="tab-label">我的</p>
+                </a>
+            </nav>
+             </div>
+    </div>
+    <script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
+    <script>
+
+        $.config = {
+            router: false
+        }
+    </script>
+    <script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+    <script>
+        $.init();
+    </script>
+</body>
+
+</html>

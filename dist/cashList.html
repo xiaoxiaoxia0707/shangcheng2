@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>提现</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.css">
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+
+</head>
+
+<body>
+<div class="page-group">
+    <!--体现方式页面!-->
+    <div class="page page-current" id="pageOne">
+        <!--头部内容 !-->
+        <header class="bar bar-nav">
+            <a class="icon icon-left pull-left" onclick="javascript:history.back(-1);"></a>
+            <h1 class="title">提现</h1>
+        </header>
+        <div class="content way-content">
+            <div class="bg-icon">
+                <img src="images/bg-3.png">
+                <h3>可提现金额（元）</h3>
+                <h1>500.00</h1>  
+                <div class="icon-div"><span>提现记录</span><span class="icon icon-right pull-right" ></span></div>             
+            </div>
+            <div class="list-block media-list">
+                <ul>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="way-item-title item-title">提现申请</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="" class="item-link item-content">
+                            <div class="item-media"><img src="images/zhifubao.png" style='width: 2.5rem;'></div>
+                            <div class="item-inner">
+                                <div class="item-title">支付宝</div>
+                                <div class="item-subtitle">支付宝转账</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="item-link item-content">
+                            <div class="item-media"><img src="images/weChart.png" style='width: 2.5rem;'></div>
+                            <div class="item-inner">
+                                <div class="item-title">微信</div>
+                                <div class="item-subtitle">微信提现</div>
+                            </div>
+                        </a>
+                    </li>   
+                    <li>
+                        <a href="" class="item-link item-content">
+                            <div class="item-media"><img src="images/bank.png" style='width: 2.8rem;margin:10px 0; '></div>
+                            <div class="item-inner">
+                                <div class="item-title">银行卡</div>
+                                <div class="item-subtitle">银行卡提现</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
+<script>
+    $.config={
+        router:false
+    }
+</script>
+<script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
+<script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+<script>
+    $.init();
+</script>
+
+</body>
+
+</html>
