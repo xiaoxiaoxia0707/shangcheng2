@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>个人中心</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.css">
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_418523_o4erddsnusaif6r.css">
+    <style>
+    .card{margin:0;}
+    body{line-height: 0.8;}
+    </style>
+</head>
+
+
+<body>
+<div class="page">
+    <!--头部内容 !-->
+        <header class="bar bar-nav">
+            <a class="icon icon-left pull-left" onclick="javascript:history.back(-1);"></a>
+            <h1 class="title">提现记录</h1>
+        </header>
+        <div class="content cashRecord-content">
+            <div class="content-block">
+                <div class="buttons-row">
+                    <a href="#progress-tab" class="tab-link active button">审批中</a>
+                    <a href="#already-tab" class="tab-link button">已审批</a>
+                </div>
+            </div>
+            <div class="tabs">
+                <div id="progress-tab" class="tab active">
+                    <div class="info-div">
+                        <ul>
+                            <li>
+                                <span class="iconfont icon-tixian">
+                                </span>
+                                <span>
+                                   提现
+                                </span>
+                                <span>
+                                   ￥500.00 
+                                </span> 
+                            </li>                     
+                            <li style="border-bottom: none;">
+                                <span class="iconfont icon-xiaotubiao03">
+                                </span>
+                                <span>
+                                   申请提现时间
+                                </span>
+                                <span>
+                                   2017-07-20 15:23
+                                </span> 
+                            </li>  
+                            <li>
+                                <span class="iconfont icon-zhuangtai">
+                                </span>
+                                <span>
+                                   申请状态
+                                </span>
+                                <span>
+                                   提现中
+                                </span> 
+                            </li> 
+                            </ul>
+                        </div>
+                         <div class="info-div">
+                        <ul>
+                            <li>
+                                <span class="iconfont icon-tixian">
+                                </span>
+                                <span>
+                                   提现
+                                </span>
+                                <span>
+                                   ￥500.00 
+                                </span> 
+                            </li>                     
+                            <li style="border-bottom: none;">
+                                <span class="iconfont icon-xiaotubiao03">
+                                </span>
+                                <span>
+                                   申请提现时间
+                                </span>
+                                <span>
+                                   2017-07-20 15:23
+                                </span> 
+                            </li>  
+                            <li>
+                                <span class="iconfont icon-zhuangtai">
+                                </span>
+                                <span>
+                                   申请状态
+                                </span>
+                                <span>
+                                   提现中
+                                </span> 
+                            </li> 
+                            </ul>
+                        </div>
+                        </div>
+                   <div id="already-tab" class="tab">
+                    <div class="info-div">
+                        <ul>
+                            <li>
+                                <span class="iconfont icon-tixian">
+                                </span>
+                                <span>
+                                   提现
+                                </span>
+                                <span>
+                                   ￥500.00 
+                                </span> 
+                            </li>                     
+                            <li style="border-bottom: none;">
+                                <span class="iconfont icon-xiaotubiao03">
+                                </span>
+                                <span>
+                                   申请提现时间
+                                </span>
+                                <span>
+                                   2017-07-20 15:23
+                                </span> 
+                            </li>  
+                            <li>
+                                <span class="iconfont icon-zhuangtai">
+                                </span>
+                                <span>
+                                   申请状态
+                                </span>
+                                <span>
+                                   提现中
+                                </span> 
+                            </li> 
+                            </ul>
+                        </div>
+                  </div>
+                </div>
+           </div>
+     </div>
+    <script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
+    <script>
+        $.config = {
+            router: false
+        }
+    </script>
+    <script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+    <script>
+    //审批分类查询
+    $(".buttons-tab").on('click', 'a', function () {
+        $(".buttons-tab a").removeClass("active");
+        $(this).addClass("active");
+});
+        $.init();
+    </script>
+</body>
+
+</html>
