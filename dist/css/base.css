@@ -156,3 +156,59 @@
   background-color: #ff8309;
   color: #fff;
 }
+.payment-bar-tab h4 {
+  font-size: 14px;
+  font-weight: normal;
+  float: left;
+  margin: 0  0 0 15px;
+  line-height: 2.5rem;
+}
+.payment-bar-tab h4 span {
+  font-size: 14px;
+  color: #e43737;
+}
+.payment-bar-tab .accountBtn {
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-radius: 25px;
+  display: block;
+  text-align: center;
+  float: right;
+  margin-right: 0.75rem;
+  width: 100px;
+  height: 1.5rem;
+  margin-top: 0.55rem;
+  line-height: 1.5rem;
+  background-color: #ff8309;
+  color: #fff;
+}
+.payment-bar-tab .cancelBtn {
+  border: 1px solid #c8c8c8;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 25px;
+  display: block;
+  text-align: center;
+  float: right;
+  width: 90px;
+  height: 1.5rem;
+  margin-top: 0.55rem;
+  line-height: 1.5rem;
+  color: #c8c8c8;
+}
+.payment-bar-tab .paymentBtn {
+  margin-left: 8px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 25px;
+  display: block;
+  text-align: center;
+  float: right;
+  margin-right: 0.75rem;
+  width: 90px;
+  height: 1.5rem;
+  margin-top: 0.55rem;
+  line-height: 1.5rem;
+  background-color: #ff8309;
+  color: #fff;
+}
